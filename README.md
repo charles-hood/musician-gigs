@@ -63,4 +63,3 @@ Insert this shortcode in any page or post where you want to display the gigs.
 
 If you have any questions, issues, or feature requests, please contact the plugin author at Charles Hood: [https://charleshood.net/contact](https://charleshood.net/contact).
 
-**Note:** This conversion omits the HTML head section styling information as markdown doesn't directly translate those styles.
