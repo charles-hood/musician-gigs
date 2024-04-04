@@ -17,11 +17,13 @@ The Musician Gigs plugin allows musicians to easily display their upcoming gigs 
 
 To set up the Google Maps Embed API key:
 
-1. In the WordPress admin dashboard, go to "Musician Gigs" > "Settings".
-2. Enter your Google Maps Embed API key in the provided field.
+1. In the WordPress admin dashboard, navigate to "Musician Gigs" > "Settings".
+2. Enter your Google Maps Embed API key in the designated field.
 3. Click on the "Save Settings" button to save the API key.
 
-The plugin will use the saved API key to display the venue location on Google Maps for each gig.
+The plugin will utilize the saved API key to display the venue location on Google Maps for each gig.
+
+To obtain your own Google Maps Embed API key, please refer to the instructions: [https://developers.google.com/maps/documentation/javascript/get-api-key](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
 ### Adding Gigs
 
@@ -62,4 +64,3 @@ Insert this shortcode in any page or post where you want to display the gigs.
 ## Support
 
 If you have any questions, issues, or feature requests, please contact the plugin author here: [https://charleshood.net/pages/contacts](https://charleshood.net/pages/contacts).
-
