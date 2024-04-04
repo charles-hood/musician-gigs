@@ -1,0 +1,101 @@
+.musician-gigs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.musician-gig {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.musician-gig:hover {
+    transform: translateY(-5px);
+}
+
+.musician-gig-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.musician-gig-image {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.musician-gig-image img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.musician-gig h3 {
+    margin: 0;
+    color: #f5b142;
+    font-size: 24px;
+}
+
+.musician-gig-date-time {
+    margin: 0;
+    color: #ddd;
+    font-size: 16px;
+}
+
+.musician-gig-date {
+    font-weight: bold;
+}
+
+.musician-gig-time {
+    margin-left: 10px;
+}
+
+.musician-gig-address {
+    margin: 10px 0;
+}
+
+.musician-gig-address a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.musician-gig-address a:hover {
+    text-decoration: underline;
+}
+
+.musician-gig-street-address {
+    font-weight: bold;
+}
+
+.musician-gig-city-state-zip {
+    color: #bbb;
+}
+
+.musician-gig-description {
+    margin-top: 10px;
+    color: #ddd;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.musician-gig-map {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .musician-gig-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .musician-gig-image {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
