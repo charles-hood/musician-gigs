@@ -1,86 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musician Gigs Plugin Documentation</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            overflow-x: auto;
-        }
-    </style>
-</head>
-<body>
-    <h1>Musician Gigs Plugin Documentation</h1>
-    <p>The Musician Gigs plugin allows musicians to easily display their upcoming gigs on their WordPress website.</p>
+## Musician Gigs Plugin Documentation
 
-    <h2>Installation</h2>
-    <ol>
-        <li>Download the plugin ZIP file.</li>
-        <li>Log in to your WordPress admin dashboard.</li>
-        <li>Go to "Plugins" > "Add New".</li>
-        <li>Click on the "Upload Plugin" button.</li>
-        <li>Choose the plugin ZIP file and click "Install Now".</li>
-        <li>After the installation is complete, click on the "Activate Plugin" link.</li>
-    </ol>
+The Musician Gigs plugin allows musicians to easily display their upcoming gigs on their WordPress website.
 
-    <h2>Usage</h2>
+## Installation
 
-    <h3>Settings</h3>
-    <p>To set up the Google Maps Embed API key:</p>
-    <ol>
-        <li>In the WordPress admin dashboard, go to "Musician Gigs" > "Settings".</li>
-        <li>Enter your Google Maps Embed API key in the provided field.</li>
-        <li>Click on the "Save Settings" button to save the API key.</li>
-    </ol>
+1. Download the plugin ZIP file.
+2. Log in to your WordPress admin dashboard.
+3. Go to "Plugins" > "Add New".
+4. Click on the "Upload Plugin" button.
+5. Choose the plugin ZIP file and click "Install Now".
+6. After the installation is complete, click on the "Activate Plugin" link.
 
-    <p>The plugin will use the saved API key to display the venue location on Google Maps for each gig.</p>
+## Usage
 
-    <h3>Adding Gigs</h3>
-    <ol>
-        <li>In the WordPress admin dashboard, go to "Musician Gigs".</li>
-        <li>Click on "Add New Gig".</li>
-        <li>Fill in the gig details, including the event title, date, start time, end time, venue address, event image, and description.</li>
-        <li>Click on the "Add Gig" button to save the gig.</li>
-    </ol>
+### Settings
 
-    <h3>Editing Gigs</h3>
-    <ol>
-        <li>In the WordPress admin dashboard, go to "Musician Gigs".</li>
-        <li>Locate the gig you want to edit in the gigs table.</li>
-        <li>Click on the "Edit" link for the corresponding gig.</li>
-        <li>Update the gig details as needed.</li>
-        <li>Click on the "Update Gig" button to save the changes.</li>
-    </ol>
+To set up the Google Maps Embed API key:
 
-    <h3>Deleting Gigs</h3>
-    <ol>
-        <li>In the WordPress admin dashboard, go to "Musician Gigs".</li>
-        <li>Locate the gig you want to delete in the gigs table.</li>
-        <li>Click on the "Delete" link for the corresponding gig.</li>
-        <li>Confirm the deletion when prompted.</li>
-    </ol>
+1. In the WordPress admin dashboard, go to "Musician Gigs" > "Settings".
+2. Enter your Google Maps Embed API key in the provided field.
+3. Click on the "Save Settings" button to save the API key.
 
-    <h3>Displaying Gigs</h3>
-    <p>To display the gigs on your WordPress website, use the <code>[musician_gigs]</code> shortcode in any page or post where you want the gigs to appear.</p>
+The plugin will use the saved API key to display the venue location on Google Maps for each gig.
 
-    <h2>Shortcode</h2>
-    <p>The Musician Gigs plugin provides a shortcode to display the gigs on your WordPress website:</p>
-    <pre><code>[musician_gigs]</code></pre>
-    <p>Insert this shortcode in any page or post where you want to display the gigs.</p>
+### Adding Gigs
 
-    <h2>Support</h2>
-    <p>If you have any questions, issues, or feature requests, please contact the plugin author at <a href="https://charleshood.net/contact">https://charleshood.net/contact</a>.</p>
-</body>
-</html>
+1. In the WordPress admin dashboard, go to "Musician Gigs".
+2. Click on "Add New Gig".
+3. Fill in the gig details, including the event title, date, start time, end time, venue address, event image, and description.
+4. Click on the "Add Gig" button to save the gig.
+
+### Editing Gigs
+
+1. In the WordPress admin dashboard, go to "Musician Gigs".
+2. Locate the gig you want to edit in the gigs table.
+3. Click on the "Edit" link for the corresponding gig.
+4. Update the gig details as needed.
+5. Click on the "Update Gig" button to save the changes.
+
+### Deleting Gigs
+
+1. In the WordPress admin dashboard, go to "Musician Gigs".
+2. Locate the gig you want to delete in the gigs table.
+3. Click on the "Delete" link for the corresponding gig.
+4. Confirm the deletion when prompted.
+
+### Displaying Gigs
+
+To display the gigs on your WordPress website, use the `[musician_gigs]` shortcode in any page or post where you want the gigs to appear.
+
+## Shortcode
+
+The Musician Gigs plugin provides a shortcode to display the gigs on your WordPress website:
+
+```
+[musician_gigs]
+```
+
+Insert this shortcode in any page or post where you want to display the gigs.
+
+## Support
+
+If you have any questions, issues, or feature requests, please contact the plugin author at Charles Hood: [https://charleshood.net/contact](https://charleshood.net/contact).
+
+**Note:** This conversion omits the HTML head section styling information as markdown doesn't directly translate those styles.
