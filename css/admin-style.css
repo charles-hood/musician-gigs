@@ -1,0 +1,65 @@
+/* Admin Form Styles */
+.wrap {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.wrap h1 {
+    color: #1DB954;
+}
+
+table.form-table {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table.form-table th,
+table.form-table td {
+    padding: 15px;
+}
+
+table.form-table th {
+    color: #1DB954;
+}
+
+input[type="text"],
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+}
+
+.submit {
+    text-align: right;
+}
+
+.button-primary {
+    background-color: #1DB954;
+    border-color: #1DB954;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: #1ED760;
+    border-color: #1ED760;
+}
