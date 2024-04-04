@@ -61,5 +61,5 @@ Insert this shortcode in any page or post where you want to display the gigs.
 
 ## Support
 
-If you have any questions, issues, or feature requests, please contact the plugin author at Charles Hood: [https://charleshood.net/pages/contacts](https://charleshood.net/pages/contacts).
+If you have any questions, issues, or feature requests, please contact the plugin author here: [https://charleshood.net/pages/contacts](https://charleshood.net/pages/contacts).
 
